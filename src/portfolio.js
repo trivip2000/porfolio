@@ -7,23 +7,19 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Lê Phúc trí",
+  title: "Hi all, I'm Trí",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs and some other cool libraries and frameworks."),
+  resumeLink: "https://docs.google.com/viewerng/viewer?url=https://itviec.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmpwRWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--5ecae6962d8800f13035a432db73004a045d65be/L%25C3%25AA%2520Ph%25C3%25BAc%2520Tr%25C3%25AD.pdf"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  linkedin: "https://www.linkedin.com/in/l%C3%AA-ph%C3%BAc-tr%C3%AD-5a1144198/",
+  gmail: "lephuctri19922@gmail.com",
+  facebook: "https://www.facebook.com/le.phuctri.1/",
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -33,9 +29,9 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ Digital Ocean")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -51,8 +47,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "Less",
+      fontAwesomeClassname: "fab fa-less"
     },
     {
       skillName: "JavaScript",
@@ -63,24 +63,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -90,37 +74,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ]
 };
 
 // Your education background
 
 const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
+  viewEducation: false, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Transport University",
+      logo: require("./assets/images/university.jpg"),
+      subHeader: "Software Engineer",
+      duration: "October 2010 - May 2014",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Graduating good, Score : 7.0",
+        "Scholarship at school"
       ]
     }
   ]
@@ -133,16 +102,12 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "50%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
   ]
 };
 
@@ -153,30 +118,45 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Backend Engineer",
+      company: "Teko",
+      companylogo: require("./assets/images/teko.jpg"),
+      date: "July 2017 – Present",
+      desc: "Frontend Engineer",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Lead front-end team in OP, POS",
+        "Design mock-up using Figma,Sketch",
+        "Develop OP, POS using Reactjs",
+        "Communicate with another service (WMS, LOGISTICS, ACCOUNTING,...)",
+        "Improve performance website",
+        "Using Redux to manage data and communicate another component",
+        "Using Hooks, HOC to improve redux performance",
+        "Using SASS/LESS in project",
+        "Using Webpack to bundle scripts",
+        "Using Firebase to manage database and realtime data",
+        "Familiar with ES5/ES6 and command-line tools (yarn, bash, shell scripts...).",
+        "Create Restful API by Laravel",
+        "Write unit test for the project (TDD)",
+        "Set up CI/CD auto-deploy",
+        "Config web server to build and run the project",
+        "Using git to manage source",
+        "Knowledge of Agile, Scrum - Experience in using Jira"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Backend Engineer",
+      company: "Caganu",
+      companylogo: require("./assets/images/caganu.png"),
+      date: "January 2017 – July 2017",
+      descBullets: [
+        "Develop website's features",
+        "Improve perfommance website",
+        "Using Laravel",
+        "Write unit test for the project",
+        "Using git to manage source"
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    
   ]
 };
 

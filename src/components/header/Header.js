@@ -28,25 +28,14 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          {exp === true && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#proficiency">Proficiency</a>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
+            <a href="#education">Education</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
             <a>

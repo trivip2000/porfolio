@@ -5,7 +5,7 @@ import { educationInfo } from '../../portfolio';
 
 export default function Education() {
   return (
-    <div className="education-section" id="education">
+    <div className="education-section" >
         <h1 className="education-heading">Education</h1>
         <div className="education-card-container">
           {educationInfo.schools.map((school) => (
